@@ -1,0 +1,11 @@
+{
+	"Create N-for": {
+		"prefix": "n-for",
+		"body": [
+			"<$1 n-for='let $2 of $3'>",
+			"<p>{{$2}}</p>",
+			"</$1>"
+		],
+		"description": "Create a N-for Loop"
+	}
+}

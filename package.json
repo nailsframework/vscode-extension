@@ -1,0 +1,25 @@
+{
+  "name": "nailsframework-snippets",
+  "displayName": "Nailsframework Snippets",
+  "description": "Snippets for the NailsFramework",
+  "version": "0.0.2",
+  "publisher": "dominic-jaermann",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets_ts.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets_html.json"
+      }
+    ]
+  }
+}

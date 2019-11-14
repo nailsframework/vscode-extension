@@ -1,0 +1,34 @@
+{
+	"Create Nails Component": {
+		"prefix": "n-component",
+		"body": [
+			"import { State } from \"@nailsframework/nails/lib/core/state\";",
+			"import { CoreComponent } from \"@nailsframework/nails/lib/core/components/core.component\";",
+			"",
+			"",
+			"export class $1 extends CoreComponent {",
+			"    public selector: string;",
+			"",
+			"    constructor(public state: State) {",
+			"        super(state);",
+			"        this.selector = '$2';",
+			"    }",
+			"",
+			"    public render() {",
+			"        /*html */",
+			"        return `",
+			"        <div>$1 works</div>",
+			"        `;",
+			"    }",
+			"",
+			"}",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"description": "Create a new NailsComponent"
+	}
+}
